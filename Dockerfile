@@ -1,5 +1,5 @@
 # Use an official Ubuntu base image
-FROM ubuntu:20.04
+FROM ubuntu:latest
 
 # Set environment variables for non-interactive installation
 ENV DEBIAN_FRONTEND=noninteractive
