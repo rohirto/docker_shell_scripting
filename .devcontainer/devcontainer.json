@@ -1,0 +1,11 @@
+{
+  "name": "Shell Scripting Environment",
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "ms-vscode.cpptools" // You can add more extensions as needed
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "workspaceMount": "source=/workspace,destination=/workspace,type=bind,consistency=cached"
+}
