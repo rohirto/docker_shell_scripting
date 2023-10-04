@@ -1,6 +1,6 @@
 {
   "name": "Shell Scripting Environment",
-  "dockerFile": "Dockerfile",
+  "dockerFile": "../Dockerfile",
   "extensions": [
     "ms-vscode.cpptools" // You can add more extensions as needed
   ],
