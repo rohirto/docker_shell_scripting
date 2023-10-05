@@ -1,0 +1,9 @@
+total 32
+-rwxrwxrwx 1 root root  218 Oct  5 08:49 1_file_exister.sh
+-rwxrwxrwx 1 root root  122 Oct  5 08:50 2_odd_even.sh
+-rwxrwxrwx 1 root root  234 Oct  5 08:51 3_larger_no.sh
+-rwxrwxrwx 1 root root  184 Oct  5 08:53 4_fibonacci.sh
+-rwxrwxrwx 1 root root 1031 Oct  5 09:04 5_calculator.sh
+-rwxrwxrwx 1 root root  456 Oct  5 09:07 6_file_counter.sh
+-rwxrwxrwx 1 root root  372 Oct  5 09:13 7_word_counter.sh
+-rwxrwxrwx 1 root root  636 Oct  5 09:17 8_backuper.sh

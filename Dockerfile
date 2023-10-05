@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the default working directory
-WORKDIR /workspace
+WORKDIR /workspaces
 
 # Specify the entry point
 CMD ["/bin/bash"]

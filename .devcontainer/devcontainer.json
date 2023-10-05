@@ -6,6 +6,6 @@
   ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
-  },
-  "workspaceMount": "source=/workspace,destination=/workspace,type=bind,consistency=cached"
+  }
+  //"workspaceMount": "source=./,destination=/workspace,type=bind,consistency=cached"
 }

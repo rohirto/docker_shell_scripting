@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Shell Script",
+        "type": "shell",
+        "command": "${fileDirname}/${fileBasename}",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Run Shell Script Interactive",
+        "type": "shell",
+        "command": "${fileDirname}/${fileBasename} ${input:command}",
+        "args": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Make File Executable",
+        "type": "shell",
+        "command": "chmod",
+        "args": ["+x", "${fileDirname}/${fileBasename}"],
+        "group": {
+          "kind": "none",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "problemMatcher": []
+      }
+    ],
+    "inputs": [
+        {
+          "id": "command",
+          "type": "promptString",
+          "description": "Enter the command to execute (with arguments):",
+          "default": "Enter you command here",
+          "prompt": "Shell Command"
+        }
+      ]
+  }
